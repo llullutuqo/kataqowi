@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/22x/document-edit.png</file>
+        <file>icons/22x/document-new.png</file>
+        <file>icons/22x/document-save.png</file>
+        <file>icons/22x/edit-clear.png</file>
+        <file>icons/22x/edit-delete.png</file>
+        <file>icons/22x/edit-find.png</file>
+        <file>icons/16x/document-edit.png</file>
+        <file>icons/16x/document-new.png</file>
+        <file>icons/16x/document-save.png</file>
+        <file>icons/16x/edit-clear.png</file>
+        <file>icons/16x/edit-delete.png</file>
+        <file>icons/16x/edit-find.png</file>
+        <file>icons/16x/view-preview.png</file>
+    </qresource>
+</RCC>

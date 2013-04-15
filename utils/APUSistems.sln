@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ApCore", "Core\ApCore.vcproj", "{17381B04-E2D7-32CA-95F4-973A21751913}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ApGui", "GUI\ApGui.vcproj", "{62C4C60B-86F0-35AA-B212-7F810E957803}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "apusistemplugin", "plugins\apusistemplugin.vcproj", "{E2BE414A-7A08-3828-B5E2-403207F100DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17381B04-E2D7-32CA-95F4-973A21751913}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17381B04-E2D7-32CA-95F4-973A21751913}.Debug|Win32.Build.0 = Debug|Win32
+		{17381B04-E2D7-32CA-95F4-973A21751913}.Release|Win32.ActiveCfg = Release|Win32
+		{17381B04-E2D7-32CA-95F4-973A21751913}.Release|Win32.Build.0 = Release|Win32
+		{62C4C60B-86F0-35AA-B212-7F810E957803}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62C4C60B-86F0-35AA-B212-7F810E957803}.Debug|Win32.Build.0 = Debug|Win32
+		{62C4C60B-86F0-35AA-B212-7F810E957803}.Release|Win32.ActiveCfg = Release|Win32
+		{62C4C60B-86F0-35AA-B212-7F810E957803}.Release|Win32.Build.0 = Release|Win32
+		{E2BE414A-7A08-3828-B5E2-403207F100DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2BE414A-7A08-3828-B5E2-403207F100DE}.Debug|Win32.Build.0 = Debug|Win32
+		{E2BE414A-7A08-3828-B5E2-403207F100DE}.Release|Win32.ActiveCfg = Release|Win32
+		{E2BE414A-7A08-3828-B5E2-403207F100DE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
