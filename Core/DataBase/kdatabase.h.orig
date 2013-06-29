@@ -28,7 +28,7 @@ class  CORESHARED_EXPORT KDataBase
 {
 public:
 	KDataBase();
-	static QString conectar(QString servidor,QString baseDatos, QString usuario,QString contrasenia,QString qtDriver,const QString connect_options="");
+	static QString conectar(QString servidor,QString baseDatos, QString usuario,QString contrasenia,QString qtDriver);
 	static QString conectar(QString fichero,QString qtDriver);
 	static QString reconectar(QString fichero, QString qtDriver);
 	static QString desconectar();

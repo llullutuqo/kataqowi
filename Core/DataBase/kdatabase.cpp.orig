@@ -33,7 +33,7 @@ KDataBase::KDataBase()
 QString KDataBase::conectar(QString fichero, QString qtDriver){
 	return conectar("",fichero,"","",qtDriver);
 }
-QString KDataBase::conectar(QString servidor, QString baseDatos,QString usuario, QString contrasenia, QString qtDriver,const QString options){
+QString KDataBase::conectar(QString servidor, QString baseDatos,QString usuario, QString contrasenia, QString qtDriver){
 	if(!QSqlDatabase::isDriverAvailable(qtDriver)){
 		//emit onMessage();
 		return QObject::trUtf8("El driver %1 no está disponible.").arg(qtDriver);
@@ -61,8 +61,6 @@ QString KDataBase::conectar(QString servidor, QString baseDatos,QString usuario,
 		basedatos.close();
 	}*/
 	basedatos.setDatabaseName(baseDatos);
-	if(!options.isNull())
-		basedatos.setConnectOptions(options);
 	if (!basedatos.open()){
 		return QObject::trUtf8("Error al intentar conectar: ")+basedatos.lastError().databaseText();
 	}
