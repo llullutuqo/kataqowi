@@ -1,0 +1,14 @@
+bin
+Core/trash/
+GUI/trash
+include/
+lib/
+Print/trash/
+Print/Makefile*
+Core/Makefile*
+GUI/Makefile*
+GUI/debug
+GUI/release/
+KataQowi.pro.user
+Makefile
+*vc100.pdb
