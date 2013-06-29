@@ -29,7 +29,7 @@
 namespace Ui {
     class KSelectFile;
 }
-
+class QPrinter;
 class GUISHARED_EXPORT KSelectFile : public QWidget
 {
     Q_OBJECT

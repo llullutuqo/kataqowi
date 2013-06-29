@@ -21,7 +21,7 @@
 
 #include "kconectionbox.h"
 #include "ui_kconectionbox.h"
-#include "DataBase/Kdatabase.h"
+#include "DataBase/kdatabase.h"
 #include <QMessageBox>
 
 KConectionBox::KConectionBox(QWidget *parent) :

@@ -82,6 +82,7 @@ private:
 	double spacing_;
 	double headersize_;
 	QPrinter::Unit m_unit;
+	int index;
 protected:
 	QPrinter * m_printer;
 //public slots:

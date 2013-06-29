@@ -23,8 +23,10 @@
 QT += gui \
     xml \
     xmlpatterns \
-    sql
-CONFIG += help
+    sql  \
+    help\
+    printsupport
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = KqGui
 TEMPLATE = lib
 DEFINES += GUI_LIBRARY

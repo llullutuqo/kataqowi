@@ -26,7 +26,7 @@
 #include <QDockWidget>
 #include <QVBoxLayout>
 #include <QPushButton>
-#include <QtGui/QApplication>
+#include <QApplication>
 #include "khelpviewer.h"
 #include <QAction>
 #include <QTextBrowser>

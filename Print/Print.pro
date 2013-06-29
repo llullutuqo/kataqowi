@@ -20,9 +20,12 @@
 # -------------------------------------------------
 # Project created by QtCreator 2010-08-16T09:00:51
 # -------------------------------------------------
-QT += gui \
-	sql
+QT += core \
+        gui \
+        sql \
+        printsupport
 TARGET = KqPrint
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TEMPLATE = lib
 DEFINES += PRINT_LIBRARY
 SOURCES += \

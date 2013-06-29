@@ -48,6 +48,7 @@ KDocument::KDocument(QObject *parent):QObject(parent)
 	m_unit =QPrinter::Millimeter;
 	m_printer->setOrientation(QPrinter::Portrait);
 	tempdoc_=  new QTextDocument();
+    index=0;
 }
 KDocument::~KDocument()
 {
@@ -56,7 +57,14 @@ KDocument::~KDocument()
 		delete tempdoc_;
 }
 void KDocument::addArguments(QString arg){
-	m_con = m_con.arg(arg);
+    index += 1;
+    //const QString def ="%"+QString::number(index);
+    const QString defa ="[%"+QString::number(index) +"]";
+#ifdef QT_DEBUG
+    qDebug()<<"index gen:"<<index<<":"<<defa;
+#endif
+    m_con = m_con.replace(defa,arg);
+    //m_con = m_con.replace(def,arg);
 }
 
 void
@@ -75,7 +83,7 @@ KDocument::printer()
 
 void KDocument::addArguments(QStringList args){
 	for(int i =0;i<args.count();i++)
-		m_con =m_con.arg(args[i]);
+        addArguments(args[i]);
 }
 void KDocument::setOrientation(QPrinter::Orientation orientation)
 {

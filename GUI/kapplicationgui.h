@@ -22,7 +22,7 @@
 #ifndef AAPLICATIONGUI_H
 #define AAPLICATIONGUI_H
 
-#include <QtGui/QApplication>
+#include <QApplication>
 #include "gui_global.h"
 class GUISHARED_EXPORT KApplicationGui : public QApplication
 {
